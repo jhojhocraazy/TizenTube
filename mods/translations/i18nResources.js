@@ -92,6 +92,12 @@ export default {
     "pt-BR": {
         translation: BrazilianPortugueseResource
     },
+    // ES5 / Chrome 47: YouTube's HL and navigator.language can report the bare
+    // "pt" tag on Brazilian TVs. Without this alias i18next finds no "pt"
+    // resource and falls back to English, so the whole UI renders in en.
+    pt: {
+        translation: BrazilianPortugueseResource
+    },
     ru: {
         translation: RussianResource
     },
