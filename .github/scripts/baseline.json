@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-13T01:19:40.0044591-03:00",
+  "repos": {
+    "TizenTube": {
+      "baseCommit": "f99945a84ff767bf14ad8c1146e8e3fd49a3d628",
+      "upstreamRef": "upstream/main",
+      "updatedAt": "2026-11-13T01:19:40.0045287-03:00",
+      "note": "Baseline fixada para o workflow single-repo"
+    }
+  }
+}
